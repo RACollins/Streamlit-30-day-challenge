@@ -19,7 +19,7 @@ st.write(1234)
 df = pd.DataFrame(
     index=["a", "b", "c", "d", "e", "f", "g"],
     columns=["A", "B", "C", "D", "E", "F", "G"],
-    data=np.random.randint(0, 9, (4, 4)),
+    data=np.random.randint(0, 9, (7, 7)),
 )
 st.write(df)
 
