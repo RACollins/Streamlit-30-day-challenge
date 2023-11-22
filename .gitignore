@@ -161,3 +161,4 @@ cython_debug/
 
 # Others
 *secrets.toml
+day19/*.jpeg
