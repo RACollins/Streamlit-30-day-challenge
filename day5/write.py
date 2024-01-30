@@ -17,9 +17,9 @@ st.write(1234)
 
 #df = pd.DataFrame({"first column": [1, 2, 3, 4], "second column": [10, 20, 30, 40]})
 df = pd.DataFrame(
-    index=["a", "b", "c", "d", "e", "f", "g"],
+    index=["a", "b", "c"],
     columns=["A", "B", "C", "D", "E", "F", "G"],
-    data=np.random.randint(0, 9, (7, 7)),
+    data=np.random.randint(0, 9, (3, 7)),
 )
 st.write(df)
 
